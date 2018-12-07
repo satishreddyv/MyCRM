@@ -1,0 +1,9 @@
+C:\Users\Admin\source\repos\MyCRM\MyCustomWorkflows\bin\Debug\MyCustomWorkflows.dll
+C:\Users\Admin\source\repos\MyCRM\MyCustomWorkflows\bin\Debug\MyCustomWorkflows.pdb
+C:\Users\Admin\source\repos\MyCRM\MyCustomWorkflows\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\Admin\source\repos\MyCRM\MyCustomWorkflows\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+C:\Users\Admin\source\repos\MyCRM\MyCustomWorkflows\obj\Debug\MyCustomWorkflows.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\MyCRM\MyCustomWorkflows\obj\Debug\MyCustomWorkflows.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MyCRM\MyCustomWorkflows\obj\Debug\MyCustomWorkflows.csproj.CopyComplete
+C:\Users\Admin\source\repos\MyCRM\MyCustomWorkflows\obj\Debug\MyCustomWorkflows.dll
+C:\Users\Admin\source\repos\MyCRM\MyCustomWorkflows\obj\Debug\MyCustomWorkflows.pdb
