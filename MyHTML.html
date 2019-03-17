@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+
+    <script>
+        function Buttonclick() {
+
+            // define the data to create new account
+            var contact =
+            {
+                "firstname": "Sample Contact",
+                "lastname": "Web API"
+            }
+
+            // create account record
+            //parent.Xrm.WebApi.createRecord("contact", contact).then(
+            //    function success(result) {
+            //        document.getElementById("text").innerHTML = result.id;
+            //    },
+            //    function (error) {
+            //        document.getElementById("text").innerHTML = error.message;
+                   
+            //    }
+            //);
+
+            parent.Xrm.WebApi.retrieveMultipleRecords("contact", "$select=firstname,lastname,address1_city&$filter=address1_city eq 'Redmond'", 5000).then(
+                function success(result) {
+                    var text;
+                    for (var i = 0; i < result.entities.length; i++) {
+                        console.log(result.entities[i]);
+                        text += result.entities[i].firstname
+                        
+                    }
+
+                    document.getElementById("text").innerHTML = text ;
+                    // perform additional operations on retrieved records
+                },
+                function (error) {
+                    console.log(error.message);
+                    // handle error conditions
+                }
+            );
+
+            
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="Click Me" onclick="Buttonclick()"/>
+    <p id="text">
+
+    </p>
+</body>
+</html>
