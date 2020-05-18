@@ -1,4 +1,4 @@
-# MyCRM
+# MyCRM (Code for Microsoft Dynamics 365 and Power Apps Bootcamp and Training Program)
 
 Code repository for Plugins, Custom Workflows etc. discussed in the training @
 
