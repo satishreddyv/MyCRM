@@ -2,6 +2,8 @@
 
 Code repository for Plugins, Custom Workflows etc. discussed in the training @
 
+Learn how to use Microsoft Dynamics 365 and Power Apps, from beginner basics to advanced techniques, with online video tutorials taught by Ex-Microsoft employee. 
+
 https://www.dynamicslabs.io
 
 About Dynamics 365 and Power Apps Career Program:
